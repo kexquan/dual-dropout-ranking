@@ -1,5 +1,5 @@
 # Dual-dropout-ranking
-This repository contains codes of dual-dropout-ranking.
+This repository contains codes for dual-dropout-ranking.
 
 Activate a new enviroment and install necessary packages:
 pip install -r requirements.txt
