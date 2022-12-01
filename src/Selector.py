@@ -48,6 +48,7 @@ class SelectorNetwork:
         self.model.cuda()
 
     def sampled_from_logit_p(self, num_samples):
+
         expanded_logit_p = self.logit_p.unsqueeze(0).expand(num_samples, *self.logit_p.size())
         dropout_p = torch.sigmoid(expanded_logit_p)
         bern_val = concrete_dropout_neuron(dropout_p)

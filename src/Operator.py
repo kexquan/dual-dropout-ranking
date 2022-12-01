@@ -2,6 +2,7 @@ import torch.nn as nn
 import torch
 import torch.optim as optim
 from torch.autograd import Variable
+import numpy as np
 
 class OperatorNetwork:
 
@@ -73,13 +74,14 @@ class OperatorNetwork:
     def train_one(self, x, masks, y):
 
         x_prim, masks_prim, y_prim = self.create_batch(x, masks, y)
-
         inputs = Variable(torch.concat((masks_prim, x_prim * masks_prim), dim=1))
         targets = Variable(y_prim)
 
         self.optimizer.zero_grad()
+
         outputs = self.forward(inputs)
         curr_loss = self.loss(outputs, targets)
+
         curr_loss.backward()
         self.optimizer.step()
 
