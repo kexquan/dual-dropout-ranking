@@ -17,9 +17,8 @@ python DDR_main.py --run_example2 --operator_arch 128 32 2 --num_fs 50 --multi_t
 
 ##
 If you find this is useful, please cite 
-[Dual Dropout Ranking of Linguistic Features for Alzheimer’s Disease Recognition](http://www.eie.polyu.edu.hk/~mwmak/papers/interspeech22b.pdf) 
-and 
-[Automatic Selection of Spoken Language Biomarkers for Dementia Detection](http://www.eie.polyu.edu.hk/~mwmak/papers/apsipa21b.pdf)
+[Dual Dropout Ranking of Linguistic Features for Alzheimer’s Disease Recognition]([http://www.eie.polyu.edu.hk/~mwmak/papers/interspeech22b.pdf](http://www.eie.polyu.edu.hk/~mwmak/papers/apsipa21b.pdf)) 
+and Automatic Selection of Spoken Language Biomarkers for Dementia Detection
 
 ##
 Homepage: <https://kexquan.github.io>
