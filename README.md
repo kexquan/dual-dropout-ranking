@@ -16,7 +16,10 @@ Run example 2 in multithreading, which will take about 5 minutes on a RTX3090 GP
 python DDR_main.py --run_example2 --operator_arch 128 32 2 --num_fs 50 --multi_thread
 
 ##
-If you find this is useful, please cite ``Dual Dropout Ranking of Linguistic Features for Alzheimer’s Disease Recognition`` and ``Automatic Selection of Spoken Language Biomarkers for Dementia Detection``
+If you find this is useful, please cite 
+[Dual Dropout Ranking of Linguistic Features for Alzheimer’s Disease Recognition](http://www.eie.polyu.edu.hk/~mwmak/papers/interspeech22b.pdf) 
+and 
+[Automatic Selection of Spoken Language Biomarkers for Dementia Detection](http://www.eie.polyu.edu.hk/~mwmak/papers/apsipa21b.pdf)
 
 ##
 Homepage: <https://kexquan.github.io>
