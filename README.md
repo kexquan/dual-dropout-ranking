@@ -1,5 +1,5 @@
 # Dual-dropout-ranking
-This repository contains codes for dual-dropout-ranking (DDR).
+This repository contains codes for dual-dropout-ranking (DDR). The codes should work on GPUs.
 
 ## Environment
 Activate a new enviroment and install necessary packages:
