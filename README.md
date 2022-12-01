@@ -3,6 +3,7 @@ This repository contains codes for dual-dropout-ranking (DDR). The codes should 
 
 ## Prepare Environment
 Activate a new enviroment and install necessary packages:
+
 pip install -r requirements.txt
 
 ## Example 1: XOR dataset classification
@@ -23,4 +24,4 @@ and Automatic Selection of Spoken Language Biomarkers for Dementia Detection.
 ##
 Homepage: <https://kexquan.github.io>
 
-email: xiaoquan.ke@connect.polyu.hk
+Email: xiaoquan.ke@connect.polyu.hk
