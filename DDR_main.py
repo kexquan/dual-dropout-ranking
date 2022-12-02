@@ -173,7 +173,7 @@ if __name__ == '__main__':
     parser.add_argument('--operator_arch', nargs='+', type=int, default=[128, 32, 4])     # Operator's architecture
     parser.add_argument('--selector_arch', nargs='+', type=int, default=[128, 32, 1])     # Selector's architecture
 
-    parser.add_argument('--CUDA_VISIBLE_DEVICES', type=str, default="0")
+    parser.add_argument('--CUDA_VISIBLE_DEVICES', nargs='+', type=str, default="0")
     parser.add_argument('--seed', type=int, default=8888)                                 # seed
     args = parser.parse_args()
 
