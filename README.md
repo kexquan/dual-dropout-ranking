@@ -6,6 +6,8 @@ Activate a new enviroment and install necessary packages:
 
 pip install -r requirements.txt
 
+Tips: If there is any missing package, please refer to 'requirements_full.txt' to install corresponding packages.
+
 ## Example 1: XOR dataset classification
 Run example 1 in multithreading, which will take about 5 minutes on a RTX3090 GPU:
 
