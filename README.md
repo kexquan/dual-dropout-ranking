@@ -24,6 +24,5 @@ If you find this is useful, please cite
 and Automatic Selection of Spoken Language Biomarkers for Dementia Detection.
 
 ##
-Homepage: <https://kexquan.github.io>
 
 Email: xiaoquan.ke@connect.polyu.hk
